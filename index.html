@@ -1,17 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/estilos.css">
 	<title>Grid de Bootstrap 5</title>
 </head>
 <body>
-	<header>
-		
-	</header>
+	
+	<div class="container-fluid">
+		<header class="row bg-success text-white py-4">
+			<div class="col-12">
+				<h1 class="mb-2">Header</h1>
+				<p class="mb-0">12 columnas</p>
+			</div>
+		</header>
+
+		<div class="row my-4">
+			<main class="col-12 col-md-8 mb-4 mb-md-0">
+				<h2 class="text-dark mb-3">MAIN</h2>
+				<p class="text-muted mb-3">8 Columnas</p>
+				<p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis unde impedit veniam quis. Explicabo eligendi consequuntur dolor quia nisi delentit unde voluptatibus mollitia? Fuga est molestias voluptate recusandae delectus quidem!</p>
+				<p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque ipsa, consequuntur nemo omnis iusto, quo quis ut corrupt quasi maiores quidem minus possimus laudantium, beatae tenetur quibusdam a. Consequatur, explicabo?</p>
+			</main>
+
+			<aside class="col-12 col-md-4 bg-light p-4">
+				<h2 class="text-primary mb-3">ASIDE</h2>
+				<p class="text-primary mb-0">4 Columnas</p>
+			</aside>
+		</div>
+
+		<div class="row g-5 my-4">
+			<div class="col-12 col-md-4">
+				<div class="bg-primary text-white p-4 h-100">
+					<p class="fw-bold mb-3">3 Columnas</p>
+					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="bg-primary text-white p-4 h-100">
+					<p class="fw-bold mb-3">3 Columnas</p>
+					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="bg-primary text-white p-4 h-100">
+					<p class="fw-bold mb-3">3 Columnas</p>
+					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+		</div>
+
+		<footer class="row bg-dark text-white py-4 mt-4">
+			<div class="col-12">
+				<h2 class="mb-2">Footer</h2>
+				<p class="mb-0">12 Columnas</p>
+			</div>
+		</footer>
+	</div>
+
 	<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
