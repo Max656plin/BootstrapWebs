@@ -16,10 +16,4 @@ Este proyecto muestra cómo utilizar las clases de utilidad de Bootstrap 5 para 
 - **Sistema de Grid** - Utiliza el sistema de 12 columnas de Bootstrap
 - **Clases de Utilidad** - Colores, espaciado y tipografía con clases predefinidas
 
-- proyecto/
-│
-├── index.html
-├── css/
-│   └── bootstrap.min.css
-└── js/
-└── bootstrap.bundle.min.js
+<img width="248" height="162" alt="Captura de pantalla 2025-10-10 a las 8 07 56" src="https://github.com/user-attachments/assets/afa7773f-f5a9-43a5-a529-6c6948e6d9ee" />
