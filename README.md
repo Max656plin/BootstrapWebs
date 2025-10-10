@@ -1,5 +1,9 @@
 # Ejemplo 1 - Bootstrap
 
+## Integrantes del Grupo
+- Maximo Casado Giner
+- Alejandro Laglera Ferrando
+
 ## 📋 Descripción
 
 Este proyecto muestra cómo utilizar las clases de utilidad de Bootstrap 5 para crear una página web completamente responsive con:
